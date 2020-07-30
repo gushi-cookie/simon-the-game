@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simon The Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/simon-the-game.css" rel="stylesheet">
+
+  <script src="js/vue.min.js"></script>
+</head>
+<body>
+  <div id="game">
+    <simon-the-game ref="game" v-bind:sounds='sounds'></simon-the-game>
+  </div>
+
+  <script src="js/apps.js" type="module"></script>
+</body>
+</html>

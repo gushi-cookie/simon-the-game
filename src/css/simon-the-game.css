@@ -1,0 +1,87 @@
+.simon-the-game {
+
+}
+
+
+/*
+  game
+*/
+.simon-the-game .game {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.simon-the-game .game > * {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.simon-the-game .blue {
+  border-radius: 150px 0 0 0;
+  background-color: #7882ff;
+}
+
+.simon-the-game .red {
+  border-radius: 0 150px 0 0;
+  background-color: #ff7878;
+}
+
+.simon-the-game .yellow {
+  border-radius: 0 0 0 150px;
+  background-color: #fdfe85;
+}
+
+.simon-the-game .green {
+  border-radius: 0 0 150px 0;
+  background-color: #79eb73;
+}
+
+.simon-the-game .game > .active,
+.simon-the-game .game > *:active {
+  filter: saturate(250%);
+}
+
+
+/*
+  counter & btn
+*/
+.simon-the-game .counter {
+
+}
+
+
+.simon-the-game .btn-container {
+
+}
+
+.simon-the-game .btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  border-right-color: #000000;
+  border-bottom-color: #000000;
+  background-color: #c1c1c1;
+  box-shadow: inset -1px -1px 0 1px #e3e3e3;
+  padding: 5px;
+  font: 20px Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+
+.simon-the-game .btn:active {
+  background-color: #9a9a9a;
+}
+
+
+/*
+  difficulty
+*/
+.simon-the-game .difficulty {
+
+}
+
+.simon-the-game input {
+
+}
